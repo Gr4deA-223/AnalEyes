@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewSize,HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="269dp"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/medley1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="MEDLEY MANAGEMENT INC."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			
+            <TextView
+                android:id="@+id/medley12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley1"
+                android:layout_marginTop="30dp"
+                android:text="Company Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/medley13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/medley14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/medley15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/medley16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/medley17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/medley18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/medley19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/medley18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/medley20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/medley13"
+                android:layout_alignBottom="@+id/medley13"
+                android:layout_alignLeft="@+id/medley2"
+                android:text="Brook Taube and Seth Taube" />
+
+            <TextView
+                android:id="@+id/medley21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/medley14"
+                android:layout_alignLeft="@+id/medley20"
+                android:text="Filed (8/18/2014)" />
+
+            <TextView
+                android:id="@+id/medley22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/medley15"
+                android:layout_alignLeft="@+id/medley21"
+                android:text="20.00-22.00" />
+
+            <TextView
+                android:id="@+id/medley23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/medley16"
+                android:layout_alignLeft="@+id/medley22"
+                android:text="6,000,000" />
+
+            <TextView
+                android:id="@+id/medley24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/medley17"
+                android:layout_alignLeft="@+id/medley23"
+                android:text="$151,800,000.00" />
+
+            <TextView
+                android:id="@+id/medley25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/medley18"
+                android:layout_alignLeft="@+id/medley24"
+                android:text="$3,303,053.00" />
+
+            <TextView
+                android:id="@+id/medley2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/medley13"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/medley12"
+                android:text="N/A" />
+
+            <TextView
+                android:id="@+id/medley26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/medley25"
+                android:layout_alignParentBottom="true"
+                android:text="6,000,000" />
+
+          
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2803.27" >
+			
+            
+			   <TextView
+                android:id="@+id/vantage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="VANTAGE ENERGY INC."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage1"
+                android:layout_marginTop="30dp"
+                android:text="Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/vantage14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/vantage15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/vantage17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/vantage18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage14"
+                android:layout_alignLeft="@+id/vantage20"
+                android:text="Filed (7/7/2014)" />
+
+            <TextView
+                android:id="@+id/vantage22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage15"
+                android:layout_alignLeft="@+id/vantage21"
+                android:text="$24.00-27.00" />
+
+            <TextView
+                android:id="@+id/vantage23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage16"
+                android:layout_alignLeft="@+id/vantage22"
+                android:text="23,550,000" />
+
+            <TextView
+                android:id="@+id/vantage24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage17"
+                android:layout_alignLeft="@+id/vantage23"
+                android:text="$731,227,500.00" />
+
+            <TextView
+                android:id="@+id/vantage25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage18"
+                android:layout_alignLeft="@+id/vantage24"
+                android:text="$3,000,000.00" />
+
+            <TextView
+                android:id="@+id/vantage26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vantage25"
+                android:layout_alignParentBottom="true"
+                android:text="72,350,000" />
+
+            <TextView
+                android:id="@+id/vantage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vantage12"
+                android:layout_alignBottom="@+id/vantage12"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18dp"
+                android:text="www.vantageenergy.com" />
+
+            <TextView
+                android:id="@+id/vantage20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vantage13"
+                android:layout_alignBottom="@+id/vantage13"
+                android:layout_alignRight="@+id/vantage2"
+                android:layout_marginRight="16dp"
+                android:text="Roger J. Biemans" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

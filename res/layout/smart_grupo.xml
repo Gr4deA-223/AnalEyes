@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewSize,HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.27" >
+
+          <TextView
+                android:id="@+id/smart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="SMART AND FINAL STORES, INC."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart1"
+                android:layout_marginTop="30dp"
+                android:text="Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/smart18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/smart21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/smart15"
+                android:layout_alignLeft="@+id/smart20"
+                android:text="Filed (6/20/2014)" />
+
+            <TextView
+                android:id="@+id/smart22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/smart15"
+                android:layout_alignLeft="@+id/smart21"
+                android:text="$12.00-14.00" />
+
+            <TextView
+                android:id="@+id/smart23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/smart16"
+                android:layout_alignLeft="@+id/smart22"
+                android:text="13,450,000" />
+
+            <TextView
+                android:id="@+id/smart24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/smart17"
+                android:layout_alignLeft="@+id/smart23"
+                android:text="$216,545,000.00" />
+
+            <TextView
+                android:id="@+id/smart25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/smart18"
+                android:layout_alignLeft="@+id/smart24"
+                android:text="$5,000,000.00" />
+
+            <TextView
+                android:id="@+id/smart26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/smart25"
+                android:layout_alignParentBottom="true"
+                android:text="71,056,860" />
+
+            <TextView
+                android:id="@+id/smart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/smart12"
+                android:layout_alignBottom="@+id/smart12"
+                android:layout_alignParentRight="true"
+                android:text="www.smartandfinal.com" />
+
+            <TextView
+                android:id="@+id/smart20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/smart13"
+                android:layout_alignBottom="@+id/smart13"
+                android:layout_alignRight="@+id/smart1"
+                android:text="David G. Hirz" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65" >
+
+              <TextView
+                android:id="@+id/grupo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="GRUPO AVAL ACCIONES Y VALORES S.A."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/grupo12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo1"
+                android:layout_marginTop="30dp"
+                android:text="Company Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/grupo13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/grupo14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/grupo15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/grupo16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/grupo17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/grupo18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/grupo19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/grupo18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/grupo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/grupo12"
+                android:layout_alignBottom="@+id/grupo12"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@+id/grupo12"
+                android:text="www.grupoaval.com" />
+
+            <TextView
+                android:id="@+id/grupo20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/grupo13"
+                android:layout_alignLeft="@+id/grupo2"
+                android:text="Luis Carlos Sarmiento Gutiérrez" />
+
+            <TextView
+                android:id="@+id/grupo21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/grupo14"
+                android:layout_alignLeft="@+id/grupo20"
+                android:text="Filed (8/1/2014)" />
+
+            <TextView
+                android:id="@+id/grupo22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/grupo15"
+                android:layout_alignLeft="@+id/grupo21"
+                android:text="$14.96" />
+
+            <TextView
+                android:id="@+id/grupo23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/grupo16"
+                android:layout_alignLeft="@+id/grupo22"
+                android:text="73,529,412" />
+
+            <TextView
+                android:id="@+id/grupo24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/grupo18"
+                android:layout_alignLeft="@+id/grupo23"
+                android:text="$1,265,000,007.04" />
+
+            <TextView
+                android:id="@+id/grupo25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/grupo18"
+                android:layout_alignLeft="@+id/grupo24"
+                android:text="$5,500,000.00" />
+
+            <TextView
+                android:id="@+id/grupo26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/grupo25"
+                android:layout_alignParentBottom="true"
+                android:text="21,877,531,339" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

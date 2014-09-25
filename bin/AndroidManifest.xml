@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jamjohn.alexcorp.analeyes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Top"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TOP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Compare"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.COMPARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Asia_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Asia_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Asia_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Asia_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Asia_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Asia_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Asia_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Asia_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Asia_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ASIA_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+   
+    
+    <activity
+            android:name=".Citizens_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Citizens_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Citizens_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Citizens_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Citizens_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Citizens_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Citizens_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Citizens_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Citizens_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CITIZENS_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+        
+        <activity
+            android:name=".Civitas_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Civitas_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Civitas_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Civitas_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Civitas_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Civitas_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Civitas_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Civitas_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Civitas_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CIVITAS_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Cone_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Cone_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Cone_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cone_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cone_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cone_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cone_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Cone_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Cone_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CONE_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity
+            android:name=".Cyberark_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Cyberark_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Cyberark_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cyberark_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cyberark_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Cyberark_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cyberark_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Cyberark_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Cyberark_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CYBERARK_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity
+            android:name=".Grupo_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Grupo_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Grupo_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Grupo_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Grupo_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Grupo_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Grupo_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Grupo_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Grupo_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GRUPO_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Medley_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Medley_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Medley_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Medley_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Medley_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Medley_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Medley_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Medley_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Medley_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDLEY_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Smart_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Smart_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Smart_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Smart_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Smart_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Smart_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Smart_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Smart_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Smart_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SMART_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Travelport_Vantage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_VANTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Travelport_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Travelport_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Travelport_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Travelport_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Travelport_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Travelport_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Travelport_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Travelport_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAVELPORT_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Vantage_Travelport"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_TRAVELPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity
+            android:name=".Vantage_Smart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_SMART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Vantage_Medley"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_MEDLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Vantage_Grupo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_GRUPO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Vantage_Cyberark"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_CYBERARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Vantage_Cone"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_CONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Vantage_Citizens"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_CITIZENS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Vantage_Asia"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_ASIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Vantage_Civitas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VANTAGE_CIVITAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

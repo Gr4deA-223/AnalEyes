@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewSize,HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.27" >
+
+            <TextView
+                android:id="@+id/citizens1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="CITIZENS FINANCIAL GROUP INC/RI"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens1"
+                android:layout_marginTop="30dp"
+                android:text="Company Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens13"
+                android:layout_marginLeft="21dp"
+                android:layout_toRightOf="@+id/citizens12"
+                android:text="www.citizensbank.com" />
+
+            <TextView
+                android:id="@+id/citizens20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens14"
+                android:layout_alignLeft="@+id/citizens2"
+                android:text="Bruce Van Saun" />
+
+            <TextView
+                android:id="@+id/citizens21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens14"
+                android:layout_alignLeft="@+id/citizens20"
+                android:text="Filed (5/12/2014)" />
+
+            <TextView
+                android:id="@+id/citizens22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens15"
+                android:layout_alignLeft="@+id/citizens21"
+                android:text="$23.00-25.00" />
+
+            <TextView
+                android:id="@+id/citizens23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/citizens16"
+                android:layout_alignBottom="@+id/citizens16"
+                android:layout_alignLeft="@+id/citizens22"
+                android:text="140,000,000" />
+
+            <TextView
+                android:id="@+id/citizens24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens18"
+                android:layout_alignLeft="@+id/citizens23"
+                android:text="$4,025,000,000.00" />
+
+            <TextView
+                android:id="@+id/citizens25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens18"
+                android:layout_alignLeft="@+id/citizens24"
+                android:text="$12,345,420.00" />
+
+            <TextView
+                android:id="@+id/citizens26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/citizens25"
+                android:layout_alignParentBottom="true"
+                android:text="140,000,000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.96" >
+
+              <TextView
+                android:id="@+id/travelport1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="TRAVELPORT WORLDWIDE LTD"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/travelport12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport1"
+                android:layout_marginTop="30dp"
+                android:text="Company Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/travelport13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/travelport14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/travelport15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/travelport16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/travelport17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/travelport18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/travelport19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/travelport18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/travelport20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/travelport13"
+                android:layout_alignLeft="@+id/travelport2"
+                android:text="Gordon A. Wilson" />
+
+            <TextView
+                android:id="@+id/travelport21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/travelport14"
+                android:layout_alignLeft="@+id/travelport20"
+                android:text="Filed (6/4/2014)" />
+
+            <TextView
+                android:id="@+id/travelport22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/travelport16"
+                android:layout_alignLeft="@+id/travelport21"
+                android:text="$14.00-16.00" />
+
+            <TextView
+                android:id="@+id/travelport23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/travelport16"
+                android:layout_alignLeft="@+id/travelport22"
+                android:text="30,000,000" />
+
+            <TextView
+                android:id="@+id/travelport24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/travelport17"
+                android:layout_alignLeft="@+id/travelport23"
+                android:text="$552,000,000.00" />
+
+            <TextView
+                android:id="@+id/travelport2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/travelport12"
+                android:layout_alignBottom="@+id/travelport12"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/travelport12"
+                android:text="www.travelport.com" />
+
+            <TextView
+                android:id="@+id/travelport25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/travelport18"
+                android:layout_alignLeft="@+id/travelport24"
+                android:text="$6,000,000.00" />
+
+            <TextView
+                android:id="@+id/travelport26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/travelport25"
+                android:layout_alignParentBottom="true"
+                android:text="120,107,771" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

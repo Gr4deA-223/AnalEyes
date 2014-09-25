@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.47" >
+
+            <TextView
+                android:id="@+id/citizens1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="CITIZENS FINANCIAL GROUP INC/RI"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens1"
+                android:layout_marginTop="30dp"
+                android:text="Company Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/citizens18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/citizens2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens13"
+                android:layout_marginLeft="21dp"
+                android:layout_toRightOf="@+id/citizens12"
+                android:text="www.citizensbank.com" />
+
+            <TextView
+                android:id="@+id/citizens20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens14"
+                android:layout_alignLeft="@+id/citizens2"
+                android:text="Bruce Van Saun" />
+
+            <TextView
+                android:id="@+id/citizens21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens14"
+                android:layout_alignLeft="@+id/citizens20"
+                android:text="Filed (5/12/2014)" />
+
+            <TextView
+                android:id="@+id/citizens22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens15"
+                android:layout_alignLeft="@+id/citizens21"
+                android:text="$23.00-25.00" />
+
+            <TextView
+                android:id="@+id/citizens23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/citizens16"
+                android:layout_alignBottom="@+id/citizens16"
+                android:layout_alignLeft="@+id/citizens22"
+                android:text="140,000,000" />
+
+            <TextView
+                android:id="@+id/citizens24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/citizens18"
+                android:layout_alignLeft="@+id/citizens23"
+                android:text="$4,025,000,000.00" />
+
+            <TextView
+                android:id="@+id/citizens25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/citizens18"
+                android:layout_alignLeft="@+id/citizens24"
+                android:text="$12,345,420.00" />
+
+            <TextView
+                android:id="@+id/citizens26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/citizens25"
+                android:layout_alignParentBottom="true"
+                android:text="140,000,000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="242dp"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/citizens3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="CONE MIDSTREAM PARTNERS LP" />
+
+            <TextView
+                android:id="@+id/citizens4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="VANTAGE ENERGY INC." />
+
+            <TextView
+                android:id="@+id/citizens5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="CIVITAS THERAPEUTICS, INC." />
+
+            <TextView
+                android:id="@+id/citizens6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="TRAVELPORT WORLDWIDE LTD" />
+
+            <TextView
+                android:id="@+id/citizens7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="MEDLEY MANAGEMENT INC." />
+            
+            <TextView
+                android:id="@+id/citizens8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="DT ASIA INVESTMENTS LTD" />
+            <TextView
+                android:id="@+id/citizens9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="CYBERARK SOFTWARE LTD." />
+            <TextView
+                android:id="@+id/citizens10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="SMART AND FINAL STORES, INC. " />
+            
+            <TextView
+                android:id="@+id/citizens11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/citizens10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="GRUPO AVAL ACCIONES Y VALORES S.A." />
+
+            
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

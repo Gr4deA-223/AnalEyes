@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HorizontalScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="308dp"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/vantage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="VANTAGE ENERGY INC."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage1"
+                android:layout_marginTop="30dp"
+                android:text="Website:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage12"
+                android:layout_marginTop="30dp"
+                android:text="Ceo:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/vantage14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage13"
+                android:layout_marginTop="30dp"
+                android:text="Status:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <TextView
+                android:id="@+id/vantage15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage14"
+                android:layout_marginTop="30dp"
+                android:text="Share Price:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage15"
+                android:layout_marginTop="30dp"
+                android:text="Shares Offered:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/vantage17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage16"
+                android:layout_marginTop="30dp"
+                android:text="Offer Amount:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/vantage18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage17"
+                android:layout_marginTop="30dp"
+                android:text="Total Expenses:"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/vantage19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/vantage18"
+                android:layout_marginTop="30dp"
+                android:text="Shares Total"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/vantage20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage13"
+                android:layout_alignLeft="@+id/vantage2"
+                android:text="Roger J. Biemans" />
+
+            <TextView
+                android:id="@+id/vantage21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage14"
+                android:layout_alignLeft="@+id/vantage20"
+                android:text="Filed (7/7/2014)" />
+
+            <TextView
+                android:id="@+id/vantage22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage15"
+                android:layout_alignLeft="@+id/vantage21"
+                android:text="$24.00-27.00" />
+
+            <TextView
+                android:id="@+id/vantage23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage16"
+                android:layout_alignLeft="@+id/vantage22"
+                android:text="23,550,000" />
+
+            <TextView
+                android:id="@+id/vantage24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage17"
+                android:layout_alignLeft="@+id/vantage23"
+                android:text="$731,227,500.00" />
+
+            <TextView
+                android:id="@+id/vantage25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/vantage18"
+                android:layout_alignLeft="@+id/vantage24"
+                android:text="$3,000,000.00" />
+
+            <TextView
+                android:id="@+id/vantage26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vantage25"
+                android:layout_alignParentBottom="true"
+                android:text="72,350,000" />
+
+            <TextView
+                android:id="@+id/vantage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vantage12"
+                android:layout_alignBottom="@+id/vantage12"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18dp"
+                android:text="www.vantageenergy.com" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.58" >
+
+            <TextView
+                android:id="@+id/vantage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="CONE MIDSTREAM PARTNERS LP" />
+
+            <TextView
+                android:id="@+id/vantage4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="CIVITAS THERAPEUTICS, INC. " />
+
+            <TextView
+                android:id="@+id/vantage5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="TRAVELPORT WORLDWIDE LTD " />
+
+            <TextView
+                android:id="@+id/vantage6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="MEDLEY MANAGEMENT INC." />
+
+            <TextView
+                android:id="@+id/vantage7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="DT ASIA INVESTMENTS LTD" />
+            
+            <TextView
+                android:id="@+id/vantage8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="CYBERARK SOFTWARE LTD." />
+            <TextView
+                android:id="@+id/vantage9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="SMART AND FINAL STORES, INC." />
+            <TextView
+                android:id="@+id/vantage10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="GRUPO AVAL ACCIONES Y VALORES S.A. " />
+            
+            <TextView
+                android:id="@+id/vantage11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vantage10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="CITIZENS FINANCIAL GROUP INC/RI" />
+
+            
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
